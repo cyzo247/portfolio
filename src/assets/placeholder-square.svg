@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" role="img" aria-label="작업물 이미지 자리">
+  <rect width="900" height="900" fill="#211f2b"/>
+  <g stroke="#322f3d" stroke-width="1">
+    <path d="M0 225 H900 M0 450 H900 M0 675 H900 M225 0 V900 M450 0 V900 M675 0 V900"/>
+  </g>
+  <circle cx="450" cy="410" r="46" fill="none" stroke="#bda6ff" stroke-width="3"/>
+  <path d="M435 410 l11 11 l22 -24" fill="none" stroke="#bda6ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="450" y="510" fill="#a49fb5" font-family="'Pretendard', sans-serif" font-size="22" font-weight="500" text-anchor="middle">이미지 자리 (정방형)</text>
+</svg>

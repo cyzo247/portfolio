@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-label="프로젝트 미리보기 자리표시자">
+  <rect width="1280" height="720" fill="#211f2b"/>
+  <g stroke="#322f3d" stroke-width="1">
+    <path d="M0 180 H1280 M0 360 H1280 M0 540 H1280 M320 0 V720 M640 0 V720 M960 0 V720"/>
+  </g>
+  <circle cx="640" cy="330" r="52" fill="none" stroke="#bda6ff" stroke-width="3"/>
+  <path d="M624 330 l12 12 l24 -26" fill="none" stroke="#bda6ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="640" y="430" fill="#a49fb5" font-family="'Pretendard', sans-serif" font-size="24" font-weight="500" text-anchor="middle">프로젝트 이미지 자리</text>
+</svg>

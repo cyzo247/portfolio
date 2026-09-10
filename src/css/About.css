@@ -1,0 +1,232 @@
+/* ── 자기소개: 페이지네이션 3파트 ──────────────────────────── */
+.about__story {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: var(--space-12);
+  align-items: start;
+}
+
+.about__tabs {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.about__tab {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-3);
+  padding: var(--space-4) 0;
+  text-align: left;
+  color: var(--color-text-muted);
+  border-bottom: 1px solid var(--color-border);
+  transition: color var(--transition);
+}
+
+.about__tab:hover {
+  color: var(--color-text);
+}
+
+.about__tab--active {
+  color: var(--color-text);
+  border-bottom-color: var(--color-accent);
+}
+
+.about__tab-no {
+  font-size: var(--text-xs);
+  font-weight: var(--weight-bold);
+  letter-spacing: 0.08em;
+  color: var(--color-accent);
+}
+
+.about__tab-label {
+  font-size: var(--text-base);
+  font-weight: var(--weight-medium);
+}
+
+/* 자기소개 본문 — 하나만 가볍게 감쌈 */
+.about__panel {
+  padding: var(--space-10);
+  background-color: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+}
+
+.about__panel-category {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semibold);
+  letter-spacing: 0.02em;
+  color: var(--color-accent);
+}
+
+.about__panel-no {
+  font-size: var(--text-xs);
+  font-weight: var(--weight-bold);
+  padding: var(--space-1) var(--space-2);
+  border: 1px solid var(--color-border-strong);
+  border-radius: var(--radius-sm);
+  color: var(--color-text-muted);
+}
+
+.about__panel-title {
+  margin-top: var(--space-4);
+  font-size: var(--text-h3);
+  font-weight: var(--weight-bold);
+  letter-spacing: -0.02em;
+}
+
+.about__panel-body {
+  margin-top: var(--space-6);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.about__panel-body p {
+  font-size: var(--text-body);
+  color: var(--color-text-muted);
+}
+
+.about__nav {
+  margin-top: var(--space-8);
+  padding-top: var(--space-6);
+  border-top: 1px solid var(--color-border);
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.about__nav-btn {
+  width: 44px;
+  height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.125rem;
+  color: var(--color-text);
+  border: 1px solid var(--color-border-strong);
+  border-radius: var(--radius-pill);
+  transition: border-color var(--transition), color var(--transition);
+}
+
+.about__nav-btn:hover {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
+.about__nav-count {
+  font-size: var(--text-sm);
+  font-weight: var(--weight-medium);
+  color: var(--color-text-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ── 경력 · 학력 · 자격증 — 카드 없이 여백과 구분선으로 ──────── */
+.about__records {
+  margin-top: var(--space-20);
+  padding-top: var(--space-12);
+  border-top: 1px solid var(--color-border);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-16);
+}
+
+.about__record-title {
+  font-size: var(--text-xs);
+  font-weight: var(--weight-semibold);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+}
+
+.about__record-title--spaced {
+  margin-top: var(--space-10);
+}
+
+.about__timeline {
+  margin-top: var(--space-6);
+  display: flex;
+  flex-direction: column;
+}
+
+.about__entry {
+  display: grid;
+  gap: var(--space-1);
+  padding-block: var(--space-5);
+  border-top: 1px solid var(--color-border);
+}
+
+.about__entry:first-child {
+  border-top: none;
+  padding-top: 0;
+}
+
+.about__entry-period {
+  font-size: var(--text-xs);
+  font-weight: var(--weight-semibold);
+  letter-spacing: 0.04em;
+  color: var(--color-accent);
+}
+
+.about__entry-org {
+  font-size: var(--text-body);
+  font-weight: var(--weight-medium);
+  color: var(--color-text);
+}
+
+.about__entry-role {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+}
+
+.about__certs {
+  margin-top: var(--space-6);
+  display: flex;
+  flex-direction: column;
+}
+
+.about__cert {
+  padding-block: var(--space-4);
+  border-top: 1px solid var(--color-border);
+  font-size: var(--text-base);
+  color: var(--color-text);
+}
+
+.about__cert:first-child {
+  border-top: none;
+  padding-top: 0;
+}
+
+@media (max-width: 900px) {
+  .about__story {
+    grid-template-columns: 1fr;
+    gap: var(--space-6);
+  }
+
+  .about__tabs {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+  }
+
+  .about__tab {
+    flex: 1 1 auto;
+    flex-direction: column;
+    gap: var(--space-1);
+    padding: var(--space-3) 0;
+  }
+
+  .about__records {
+    grid-template-columns: 1fr;
+    gap: var(--space-12);
+  }
+}
+
+@media (max-width: 560px) {
+  .about__panel {
+    padding: var(--space-6);
+  }
+}
