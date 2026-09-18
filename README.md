@@ -1,16 +1,73 @@
-# React + Vite
+# 이지안 — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+콘텐츠 디자인을 중심으로 다양한 시각 콘텐츠를 제작해 온 포트폴리오 웹사이트입니다.
 
-Currently, two official plugins are available:
+SNS 콘텐츠, 정보성 콘텐츠, 브랜드 콘텐츠, 웹사이트, 썸네일 등
+다양한 형태의 디자인 작업을 소개합니다.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Projects
 
-## React Compiler
+### 01. CHAMTOON
+간판·옥외광고를 주제로 한 정보성 SNS 콘텐츠 시리즈입니다.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 콘텐츠 기획
+- 일러스트
+- 편집 디자인
 
-## Expanding the Oxlint configuration
+### 02. 썸앤데코
+브랜드 SNS 채널을 위한 다양한 콘텐츠를 제작한 프로젝트입니다.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- SNS 콘텐츠 디자인
+- 이미지 합성
+- 카피라이팅
+
+### 03. 2026 춘천마임축제 웹사이트
+weAI를 활용해 초기 웹사이트를 제작한 뒤,
+VS Code에서 코드를 확인하고 수정했으며
+Claude를 코딩 보조 도구로 활용하여 웹사이트를 완성했습니다.
+
+- AI 기반 초기 제작
+- 코드 검토 및 수정
+- 화면 구성
+- 배포
+
+사용 도구:
+- weAI
+- VS Code
+- Claude
+
+### 04. 펌블만 터지는 명란젓 연대기
+고정 캐릭터와 시리즈 아이덴티티를 활용한
+유튜브 썸네일 디자인 시리즈입니다.
+
+- 썸네일 디자인
+- 시리즈 디자인
+- 타이포그래피
+- 캐릭터 활용
+
+## Tech Stack
+
+- React
+- Vite
+- JavaScript
+- CSS
+
+## Development
+
+이 포트폴리오 웹사이트는 React와 Vite를 기반으로 제작했습니다.
+
+VS Code 환경에서 개발 및 수정했으며,
+반응형 웹 디자인을 적용했습니다.
+
+## Features
+
+- Responsive Web Design
+- Project Showcase
+- About / Skills / Contact
+- 프로젝트별 작업물 이미지 Grid
+
+## Contact
+
+Portfolio: [포트폴리오](https://실제주소.vercel.app)
+
+GitHub: [cyzo247](https://github.com/cyzo247)

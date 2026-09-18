@@ -1,6 +1,7 @@
 import heroChamtoon from "../assets/works/chamtoon/cham-cover.jpg";
 import heroSsomedeco from "../assets/works/ssomedeco/deco-cover.jpg";
 import heroThumbnail from "../assets/works/thumbnail/thumb-9.jpg";
+import resumePdf from "../assets/resume/resume_leejian.pdf";
 
 // Real content for 이지안 · 콘텐츠 디자이너.
 export const profile = {
@@ -95,7 +96,7 @@ export const profile = {
 
   certificates: ["컴퓨터 그래픽스 1급", "GTQ 1급", "JLPT 1급"],
 
-  resumeUrl: "#",
+  resumeUrl: resumePdf,
   email: "cyzo247@gmail.com",
 
   // Contact 링크 — 준비되면 url을 채우세요. url이 "#"이면 표시하지 않습니다.

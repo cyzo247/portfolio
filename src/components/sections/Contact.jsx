@@ -24,7 +24,12 @@ function Contact() {
 
         <div className="contact__links">
           {hasResume && (
-            <a className="btn btn--ghost" href={profile.resumeUrl}>
+            <a
+              className="btn btn--ghost"
+              href={profile.resumeUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               이력서 보기
             </a>
           )}
